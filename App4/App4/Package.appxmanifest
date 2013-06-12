@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="29ee65aa-4eec-4fc5-b02c-44789bdc68a3" Publisher="CN=song" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>App4</DisplayName>
+    <PublisherDisplayName>song</PublisherDisplayName>
+    <Logo>Assets\item_logo4.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App4.App">
+      <VisualElements DisplayName="app4" Logo="Assets\item_logo.png" SmallLogo="Assets\item_logo3.png" Description="app4" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="noLogos" WideLogo="Assets\item_logo2.png" />
+        <SplashScreen Image="Assets\logostar.png" BackgroundColor="#03a0cd" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
